@@ -1,0 +1,110 @@
+body {
+    background-color: whitesmoke;
+    height: 100vh;
+
+}
+
+#navbar {
+    background-color: #a8ceef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#intro-grid-container {
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 40% 60%;
+    background-color: #bcdbef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#dog-image {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+#intro {
+    font-size: 1.5em;
+    font-weight: semibold;
+    align-self: center;
+    color: #0D1117
+}
+
+#profile-pic {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+#about-me {
+    color: #1668AB;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-around;
+    min-width: 440px;
+}
+
+#project-card {
+    width: 300px;
+    height: 400px;
+}
+
+.body {
+    color: #1668AB;
+}
+
+#contact-container {
+    background-color: #F5F8FA;
+    
+}
+
+.projects-section {
+  padding: 2rem;
+  background-color: whitesmoke;
+  color: #1668AB;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  color: #0D1117;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project-image {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.project-links a {
+  margin: 0 0.5rem;
+  color: #0070f3;
+  text-decoration: none;
+}
