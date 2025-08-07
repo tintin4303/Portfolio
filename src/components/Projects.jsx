@@ -16,14 +16,14 @@ const projectList = [
   },
   {
     title: "Press&Go",
-    description: "Figma-designed Laundry P2P platform for users to do side hustles and earn money.",
+    description: "Figma-designed interactive laundry P2P platform for users to do side hustles and earn money.",
     image: PressNGoImage,
     code: "https://www.figma.com/design/9vnHtFaxFNKquaeArCSln6/Press-Go?node-id=0-1&t=ItvUj9X94LPPthkO-1",
     live: "https://www.figma.com/proto/9vnHtFaxFNKquaeArCSln6/Press-Go?page-id=0%3A1&node-id=35-66&p=f&viewport=340%2C256%2C0.15&t=AIkEAijwl8lN3NuX-1&scaling=contain&content-scaling=fixed&starting-point-node-id=35%3A66"
   },
   {
     title: "AU Fitness",
-    description: "Fitness center management system built with Java for Assumption University students to track their bookings of the gym and sports facilities.",
+    description: "Fitness center management system built with Java and PostgreSQL for students to track their bookings of the gym and sports facilities at Assumption University.",
     image: AUFitnessImage,
     code: "https://github.com/tintin4303/AU_FitnessCenterManagementSystem",
     live: ""
