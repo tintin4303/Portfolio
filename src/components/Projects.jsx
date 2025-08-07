@@ -40,7 +40,7 @@ const projectList = [
 
 function Projects() {
   return (
-    <section className="projects-section">
+    <section className="projects-section" id='projects'>
       <div className="projects-grid">
         {projectList.map((proj, index) => (
           <ProjectCard key={index} {...proj} />
