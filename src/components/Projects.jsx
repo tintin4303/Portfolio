@@ -12,7 +12,7 @@ const projectList = [
     description: "Anime info viewer using Jikan API and EJS on the backend. Deployed with Vercel.",
     image: AniBaseImage,
     code: "https://github.com/yourusername/anibase",
-    live: "https://anibase.vercel.app"
+    live: "https://ani-base-five.vercel.app"
   },
   {
     title: "Press&Go",
