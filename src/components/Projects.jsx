@@ -32,8 +32,8 @@ const projectList = [
     title: "SpendWise",
     description: "Spending Tracker React.js app to help users manage their finances effectively.",
     image: SpendWiseImage,
-    code: "https://github.com/tinthegoat/spending-tracker",
-    live: "https://tinthegoat.github.io/spending-tracker/#/dashboard"
+    code: "https://github.com/tintin4303/SpendWise",
+    live: "https://spend-wise-sage.vercel.app/#/dashboard"
     }
 ];
 
